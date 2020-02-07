@@ -274,7 +274,7 @@ import UIKit
         }
         
         normalLabelSegments.forEach {
-            $0.textColor = indicatorView.backgroundColor
+            $0.textColor = .darkGray
         }
         selectedLabelSegments.forEach {
             $0.textColor = backgroundColor
